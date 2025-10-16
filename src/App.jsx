@@ -15,7 +15,7 @@ function App() {
     <ThemeProvider>
       <div className="min-h-screen font-['Inter']">
         <Header />
-        <main>
+        <main className='overflow-hidden'>
           <Hero />
           <Frames />
           <Lenses />
